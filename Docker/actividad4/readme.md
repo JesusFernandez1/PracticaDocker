@@ -29,7 +29,32 @@ docker run -d -p 80:3000 --name temperaturas-frontend --network red_temperaturas
 
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad4/Captura%20de%20pantalla%20(215).png)
 
+```sh
+docker network create red_wp
+```
 
+Para ejecutar los contenedores:
+
+```sh
+docker run -d --name servidor_mysql \
+                --network red_wp \
+                -v /opt/mysql_wp:/var/lib/mysql \
+                -e MYSQL_DATABASE=bd_wp \
+                -e MYSQL_USER=user_wp \
+                -e MYSQL_PASSWORD=asdasd \
+                -e MYSQL_ROOT_PASSWORD=asdasd \
+                mariadb
+                
+docker run -d --name servidor_wp \
+                --network red_wp \
+                -v /opt/wordpress:/var/www/html/wp-content \
+                -e WORDPRESS_DB_HOST=servidor_mysql \
+                -e WORDPRESS_DB_USER=user_wp \
+                -e WORDPRESS_DB_PASSWORD=asdasd \
+                -e WORDPRESS_DB_NAME=bd_wp \
+                -p 80:80 \
+                wordpress
+```
 
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad4/Captura%20de%20pantalla%20(216).png)
 
