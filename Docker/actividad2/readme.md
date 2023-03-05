@@ -28,11 +28,11 @@ RUN yarn install --production
 CMD ["node", "src/index.js"]
 EXPOSE 3000
 ```
+#### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad2/Captura%20de%20pantalla%20(201).png)
+
 ```sh 
 docker build -t getting-started
 ```
-
-#### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad2/Captura%20de%20pantalla%20(201).png)
 
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad2/Captura%20de%20pantalla%20(202).png)
 
