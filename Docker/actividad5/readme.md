@@ -1,6 +1,34 @@
 # Despliegue de aplicaciones web
 
-### Descargamos la imagen de ubuntu, hello-world y nginx ademas de mostrar un listado de todas la imágenes
+En el fichero `docker-compose.yml` vamos a definir el escenario. El programa `docker-compose` se debe ejecutar en el directorio donde este ese fichero. 
+
+```sh
+version: '3.1'
+services:
+  app:
+    container_name: guestbook
+    image: iesgn/guestbook
+    restart: always
+    ports:
+      - 80:5000
+  db:
+    container_name: redis
+    image: redis
+    restart: always
+```
+
+Para crear el escenario:
+
+```sh
+docker-compose up -d
+```
+
+### Para listar los contenedores:
+
+```sh
+docker-compose ps
+          
+```
 
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad5/Captura%20de%20pantalla%20(218).png)
 
