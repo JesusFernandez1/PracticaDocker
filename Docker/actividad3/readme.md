@@ -1,6 +1,6 @@
 # Despliegue de aplicaciones web
 
-### Descargamos la imagen de ubuntu, hello-world y nginx
+### Descargamos la imagen de ubuntu, hello-world y nginx ademas de mostrar un listado de todas la imágenes
 
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad3/Captura%20de%20pantalla%20(208).png)
 
