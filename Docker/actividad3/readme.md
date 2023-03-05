@@ -12,7 +12,9 @@
 
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad3/Captura%20de%20pantalla%20(210).png)
 
-### Paramos el contenedor "myhello1”
+### Tendriamos que parar los contenedores 1 y 2, pero al haberlos creado ya estan parados(el comando para pararlo seria docker stop "myhello1")
+
+### Borramos el contenedor "myhello1”
 
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad3/Captura%20de%20pantalla%20(211).png)
 
