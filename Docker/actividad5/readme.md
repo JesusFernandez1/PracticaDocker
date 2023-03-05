@@ -70,7 +70,7 @@ docker-compose up -d
 docker-compose ps
 ```
 
-#### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad5/Captura%20de%20pantalla%20(220).png)
+#### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad5/Captura%20de%20pantalla%20(221).png)
 
 ### Para la ejecución de wordpress persistente con volúmenes docker podríamos tener un fichero docker-compose.yml con el siguiente contenido:
 
@@ -117,7 +117,5 @@ docker-compose up -d
 ```sh
 docker-compose ps
 ```
-
-#### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad5/Captura%20de%20pantalla%20(221).png)
 
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad5/Captura%20de%20pantalla%20(222).png)
