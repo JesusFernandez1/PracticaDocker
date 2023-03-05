@@ -27,7 +27,6 @@ docker-compose up -d
 
 ```sh
 docker-compose ps
-          
 ```
 
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad5/Captura%20de%20pantalla%20(218).png)
@@ -35,8 +34,7 @@ docker-compose ps
 ### Para parar los contenedores:
 
 ```sh
-docker-compose stop
-          
+docker-compose stop        
 ```
 
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad5/Captura%20de%20pantalla%20(219).png)
