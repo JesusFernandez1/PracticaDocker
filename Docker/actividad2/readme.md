@@ -35,6 +35,9 @@ docker build -t getting-started
 ```
 
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad2/Captura%20de%20pantalla%20(202).png)
+```sh 
+docker run -dp 3000:3000 getting-started
+```
 
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad2/Captura%20de%20pantalla%20(203).png)
 
