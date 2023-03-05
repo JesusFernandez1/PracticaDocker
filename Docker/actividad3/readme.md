@@ -18,6 +18,10 @@
 
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad3/Captura%20de%20pantalla%20(211).png)
 
+### Mostramos los contenedores que se están ejecutando
+
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad3/Captura%20de%20pantalla%20(212).png)
+
+### Los borramos todos
 
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad3/Captura%20de%20pantalla%20(213).png)
