@@ -6,6 +6,8 @@
 
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad2/Captura%20de%20pantalla%20(199).png)
 
+### Si listamos los contenedores que se están ejecutando (docker ps) o docker ps -a para los que no se estan ejecutando:
+
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad2/Captura%20de%20pantalla%20(200).png)
 
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad2/Captura%20de%20pantalla%20(201).png)
