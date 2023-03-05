@@ -1,6 +1,16 @@
 # Despliegue de aplicaciones web
 
-### Descargamos la imagen de ubuntu, hello-world y nginx ademas de mostrar un listado de todas la imágenes
+```shdocker network create red_guestbook
+```
+
+Para ejecutar los contenedores:
+
+```sh
+docker run -d --name redis --network red_guestbook -v /opt/redis:/data redis redis-server --appendonly yes
+
+
+docker run -d -p 80:5000 --name guestbook --network red_guestbook iesgn/guestbook
+```
 
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad4/Captura%20de%20pantalla%20(214).png)
 
