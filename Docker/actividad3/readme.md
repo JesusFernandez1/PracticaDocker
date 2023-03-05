@@ -4,7 +4,7 @@
 
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad3/Captura%20de%20pantalla%20(208).png)
 
-### Si listamos los contenedores que se están ejecutando (docker ps) o docker ps -a para los que no se estan ejecutando:
+### Ejecutamos un contenedor hello-world y le damos el nombre “myhello1”, repetimos lo mismo con myhello2” y “myhello3”
 
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad3/Captura%20de%20pantalla%20(209).png)
 
