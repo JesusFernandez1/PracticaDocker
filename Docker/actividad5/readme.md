@@ -32,7 +32,12 @@ docker-compose ps
 
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad5/Captura%20de%20pantalla%20(218).png)
 
-### Ejecutamos un contenedor hello-world y le damos el nombre “myhello1”, repetimos lo mismo con myhello2” y “myhello3”
+### Para parar los contenedores:
+
+```sh
+docker-compose stop
+          
+```
 
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad5/Captura%20de%20pantalla%20(219).png)
 
