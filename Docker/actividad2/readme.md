@@ -43,6 +43,10 @@ docker run -dp 3000:3000 getting-started
 
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad2/Captura%20de%20pantalla%20(204).png)
 
+### Creamos una cuenta en hub.docker.com
+
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad2/Captura%20de%20pantalla%20(205).png)
+
+### Publicamos
 
 #### ![Image](https://github.com/JesusFernandez1/PracticaDocker/blob/main/Docker/actividad2/Captura%20de%20pantalla%20(206).png)
