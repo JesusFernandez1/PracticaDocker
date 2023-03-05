@@ -1,6 +1,7 @@
 # Despliegue de aplicaciones web
 
-```shdocker network create red_guestbook
+```sh
+docker network create red_guestbook
 ```
 
 Para ejecutar los contenedores:
